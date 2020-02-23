@@ -1,0 +1,31 @@
+{{ define "main" }}
+    <main aria-role="main">
+        <div>
+            <svg width="90px" height="90px" class="brand-logo" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="logo" transform="translate(2.000000, 2.000000)">
+                        <text id="D" font-family="ArialMT, Arial" font-size="50" font-weight="normal" letter-spacing="5.61111069" fill="#222222">
+                            <tspan x="38" y="60">D</tspan>
+                        </text>
+                        <text id="R" transform="translate(29.000000, 43.000000) scale(-1, 1) translate(-29.000000, -43.000000) " font-family="ArialMT, Arial" font-size="50" font-weight="normal" letter-spacing="5.61111069" fill="#222222">
+                            <tspan x="8" y="60">R</tspan>
+                        </text>
+                        <circle id="Oval" stroke="#222222" stroke-width="4" cx="42.5" cy="42.5" r="42.5"></circle>
+                    </g>
+                </g>
+            </svg>
+
+            <h1>{{ .Site.Title }}</h1>
+
+            {{- with .Site.Params.homeSubtitle }}
+                <p>{{.}}</p>
+            {{- end }}
+
+            {{- with .Site.Params.social }}
+                <div>
+                    {{ partial "social-icons.html" . }}
+                </div>
+            {{- end }}
+        </div>
+    </main>
+{{ end }}

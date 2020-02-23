@@ -1,3 +1,77 @@
-baseURL = "http://example.org/"
+baseURL = "https://robindolle.be/"
+title = "Robin Dollé"
+
 languageCode = "en-us"
-title = "My New Hugo Site"
+DefaultContentLanguage = "en"
+
+theme = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[author]
+  name = "Robin Dollé"
+
+[params]
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Robin Dollé"
+  keywords = "homepage, blog, informatics, development, programming"
+  images = [""]
+
+  homeSubtitle = "Developer & Designer"
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = ["css/style.css"]
+  customJS  = []
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+[params.logo]
+  logoText     = "$ cd /home/"
+  logoHomeLink = "/"
+
+# Social icons
+#[[params.social]]
+  #name = "email"
+  #url  = "mailto:"
+
+[[params.social]]
+  name = "linkedin"
+  url  = "https://www.linkedin.com/in/robindolle"
+
+[[params.social]]
+  name = "github"
+  url  = "https://github.com/robindolle"
+
+[[params.social]]
+  name = "codepen"
+  url  = "https://codepen.io/robindolle"
+
+[[params.social]]
+  name = "twitter"
+  url  = "https://twitter.com/robindolle"
+
+[languages]
+  [languages.nl]
+    homeSubtitle  = "Ontwikelaar & Designer"
+    weight        = 1
+  [languages.en]
+    homeSubtitle  = "Developer & Designer"
+    weight        = 2
+
+# Create a generic menu
+#[menu]
+  #[[menu.main]]
+    #identifier = "about"
+    #name       = "About"
+    #url        = "/about"
+  #[[menu.main]]
+    #identifier = "blog"
+    #name       = "Blog"
+    #url        = "/posts"
