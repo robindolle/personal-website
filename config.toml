@@ -61,6 +61,14 @@ disable404 = true
   [languages.nl]
     homeSubtitle  = "Ontwikelaar & Designer"
     weight        = 1
+  #[[languages.nl.menu.main]]
+    #identifier    = "about"
+    #name          = "Over"
+    #url           = "/over"
+  #[[languages.nl.menu.main]]
+    #identifier    = "blog"
+    #name          = "Blog"
+    #url           = "/blog"
   [languages.en]
     homeSubtitle  = "Developer & Designer"
     weight        = 2
@@ -74,4 +82,4 @@ disable404 = true
   #[[menu.main]]
     #identifier = "blog"
     #name       = "Blog"
-    #url        = "/posts"
+    #url        = "/blog"
