@@ -27,7 +27,7 @@ disable404 = true
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   customCSS = ["/css/style.css"]
-  customJS  = []
+  customJS  = ["/js/theme.js"]
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"
