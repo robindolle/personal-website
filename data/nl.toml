@@ -1,0 +1,36 @@
+# Translations for Dutch
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# Generic
+#
+[translations]
+other = "Vertalingen"
+
+[postAvailable]
+other = "Ook beschikbaar in"
+
+
+# 404.html
+#
+[archives]
+other = "Archieven"
+
+[home]
+other = "Startpagina"
+
+[notFound]
+other = "Oeps, pagina niet gevonden…"
+
+
+# posts/single.html
+#
+[readingTime]
+one   = "Een minuut"
+other = "{{ .Count }} minuten"
+
+[tableOfContents]
+other = "Inhoudsopgave"
+
+[wordCount]
+one   = "Een woord"
+other = "{{ .Count }} woorden"
