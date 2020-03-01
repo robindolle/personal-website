@@ -43,7 +43,7 @@ disable404 = true
 
 [[params.social]]
   name = "linkedin"
-  url  = "https://www.linkedin.com/in/robindolle"
+  url  = "https://linkedin.com/in/robindolle"
 
 [[params.social]]
   name = "github"
