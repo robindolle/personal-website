@@ -10,6 +10,14 @@ other = "Vertalingen"
 other = "Ook beschikbaar in"
 
 
+# index.html
+[webDeveloper]
+other = "webontwikkelaar"
+
+[creativeDesigner]
+other = "creatief ontwerper"
+
+
 # 404.html
 #
 [archives]

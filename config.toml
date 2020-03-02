@@ -22,12 +22,12 @@ disable404 = true
   keywords = "homepage, blog, informatics, development, programming"
   images = [""]
 
-  homeSubtitle = "Developer & Designer"
+  homeSubtitle = "I'm a"
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   customCSS = ["/css/style.css"]
-  customJS  = ["/js/theme.js"]
+  customJS  = ["/js/theme.js", "/js/text-animation.js"]
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"
@@ -59,7 +59,7 @@ disable404 = true
 
 [languages]
   [languages.nl]
-    homeSubtitle  = "Ontwikelaar & Designer"
+    homeSubtitle  = "Ik ben"
     weight        = 1
   #[[languages.nl.menu.main]]
     #identifier    = "about"
@@ -70,7 +70,7 @@ disable404 = true
     #name          = "Blog"
     #url           = "/blog"
   [languages.en]
-    homeSubtitle  = "Developer & Designer"
+    homeSubtitle  = "I'm a"
     weight        = 2
 
 # Create a generic menu

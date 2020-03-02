@@ -18,7 +18,9 @@
             <h1>{{ .Site.Title }}</h1>
 
             {{- with .Site.Params.homeSubtitle }}
-                <p>{{.}}</p>
+                <p>
+                    {{.}}&nbsp;<span class="typewrite" data-type='["{{ i18n "webDeveloper" }}", "{{ i18n "creativeDesigner" }}"]'></span>
+                </p>
             {{- end }}
 
             {{- with .Site.Params.social }}
