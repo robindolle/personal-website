@@ -13,6 +13,8 @@ disableRSS = true
 disableSitemap = true
 disable404 = true
 
+GoogleAnalytics = "UA-60601159-1"
+
 [author]
   name = "Robin Dollé"
 
