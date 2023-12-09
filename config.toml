@@ -1,8 +1,8 @@
 baseURL = "https://robindolle.be/"
 title = "Robin Dollé"
 
-languageCode = "en-us"
-DefaultContentLanguage = "en"
+languageCode = "nl-be"
+DefaultContentLanguage = "nl"
 
 theme = "hello-friend-ng"
 
@@ -15,7 +15,7 @@ disable404 = true
 
 GoogleAnalytics = "UA-60601159-1"
 
-[author]
+[params.author]
   name = "Robin Dollé"
 
 [params]
@@ -24,6 +24,7 @@ GoogleAnalytics = "UA-60601159-1"
   keywords = "homepage, blog, informatics, development, programming"
   images = [""]
 
+  # Subtitle for home
   homeSubtitle = "I'm a"
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
@@ -34,8 +35,14 @@ GoogleAnalytics = "UA-60601159-1"
   # Default theme "light" or "dark"
   defaultTheme = "dark"
 
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = true
+
+  # Show theme toggle in the navigation bar
+  enableThemeToggle = true
+
 [params.logo]
-  logoText     = "$ cd /home/"
+  logoText     = "Robin Dollé"
   logoHomeLink = "/"
 
 # Social icons
@@ -60,9 +67,12 @@ GoogleAnalytics = "UA-60601159-1"
   url  = "https://twitter.com/robindolle"
 
 [languages]
-  [languages.nl]
+  [languages.nl.params]
     homeSubtitle  = "Ik ben"
     weight        = 1
+  [languages.en.params]
+    homeSubtitle  = "I'm a"
+    weight        = 2
   #[[languages.nl.menu.main]]
     #identifier    = "about"
     #name          = "Over"
@@ -71,9 +81,6 @@ GoogleAnalytics = "UA-60601159-1"
     #identifier    = "blog"
     #name          = "Blog"
     #url           = "/blog"
-  [languages.en]
-    homeSubtitle  = "I'm a"
-    weight        = 2
 
 # Create a generic menu
 #[menu]
